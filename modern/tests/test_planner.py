@@ -78,8 +78,8 @@ def test_cli_and_offline_html(tmp_path):
     scenario = Path(__file__).resolve().parents[1] / "examples" / "six_vehicles.json"
     out, html = tmp_path / "routes.json", tmp_path / "demo.html"
     assert main([str(scenario), "--output", str(out), "--html", str(html)]) == 0
-    assert json.loads(out.read_text())["collision_free"] is True
-    page = html.read_text()
+    assert json.loads(out.read_text(encoding="utf-8"))["collision_free"] is True
+    page = html.read_text(encoding="utf-8")
     assert "One coordinated fleet." in page
     assert "https://" not in page  # fully offline, no third-party dependencies
 
@@ -89,7 +89,7 @@ def test_escape_untrusted_scenario_name(tmp_path):
     s = Scenario(2, 2, (Vehicle("A",(0,0),(1,0)),), name="</script><script>alert(1)</script>")
     file = tmp_path / "safe.html"
     save_html(plan(s), file)
-    assert "</script><script>alert(1)" not in file.read_text()
+    assert "</script><script>alert(1)" not in file.read_text(encoding="utf-8")
 
 
 def test_parked_agent_cannot_move_to_resolve_conflict():
