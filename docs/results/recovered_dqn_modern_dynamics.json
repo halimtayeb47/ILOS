@@ -1,0 +1,8 @@
+{
+  "algorithm": "Recovered DQN on modern dynamics",
+  "success": false,
+  "arrived": 0,
+  "steps": 60,
+  "conflict_proposals": 54,
+  "scope": "Same map, goals and collision blocking used for PPO evaluation; recovered DQN was trained with the older dynamics"
+}

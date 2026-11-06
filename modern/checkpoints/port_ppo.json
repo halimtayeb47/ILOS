@@ -1,0 +1,15 @@
+{
+  "algorithm": "PPO",
+  "schema_version": 1,
+  "seed": 42,
+  "requested_steps": 100000,
+  "trained_steps": 100096,
+  "max_episode_steps": 60,
+  "scenario_sha256": "1fcfa822cce8038278d3cfae62b8d345336d405f06bc57f148a055eb95947e60",
+  "vehicle_ids": [
+    "T0",
+    "T1",
+    "T2"
+  ],
+  "checkpoint_sha256": "ed08d6477cf0edcd16e2b66b252e228031aa323dece6b3d29b4de1ea8db20a26"
+}

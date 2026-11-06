@@ -1,0 +1,27 @@
+name: "simple_port_8x8_multi_shaped"
+world:
+  width: 8
+  height: 8
+  n_trucks: 3
+  max_steps: 60
+  step_penalty: -0.05
+  goal_reward: 25.0
+  conflict_penalty: -5.0
+  out_of_bounds_penalty: -1.0
+  collision_penalty: -10.0
+
+truck_starts:
+  T0: { x: 0, y: 0 }
+  T1: { x: 0, y: 7 }
+  T2: { x: 7, y: 0 }
+
+truck_goals:
+  T0: { x: 7, y: 7 }
+  T1: { x: 7, y: 0 }
+  T2: { x: 0, y: 7 }
+
+obstacles:
+  - { id: "B0", x: 3, y: 3 }
+  - { id: "B1", x: 3, y: 4 }
+  - { id: "B2", x: 4, y: 3 }
+  - { id: "B3", x: 4, y: 4 }

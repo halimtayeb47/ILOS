@@ -1,0 +1,11 @@
+{
+  "name": "Three-vehicle port",
+  "width": 8,
+  "height": 8,
+  "obstacles": [[3,3],[3,4],[4,3],[4,4]],
+  "vehicles": [
+    {"id":"T0","start":[0,0],"goal":[7,7]},
+    {"id":"T1","start":[0,7],"goal":[7,0]},
+    {"id":"T2","start":[7,0],"goal":[0,7]}
+  ]
+}
