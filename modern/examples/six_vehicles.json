@@ -1,0 +1,24 @@
+{
+  "name": "Six-AGV Warehouse Demo",
+  "width": 12,
+  "height": 9,
+  "obstacles": [[3,2],[3,3],[3,4],[3,5],[8,2],[8,3],[8,4],[8,5],[5,4],[6,4]],
+  "congestion": [
+    {"cell":[4,1],"cost":2.0},
+    {"cell":[5,1],"cost":2.0},
+    {"cell":[6,1],"cost":2.0},
+    {"cell":[7,1],"cost":2.0},
+    {"cell":[4,7],"cost":1.0},
+    {"cell":[5,7],"cost":1.0},
+    {"cell":[6,7],"cost":1.0},
+    {"cell":[7,7],"cost":1.0}
+  ],
+  "vehicles": [
+    {"id":"AGV-01","start":[0,0],"goal":[11,8]},
+    {"id":"AGV-02","start":[11,0],"goal":[0,8]},
+    {"id":"AGV-03","start":[0,8],"goal":[11,0]},
+    {"id":"AGV-04","start":[11,8],"goal":[0,0]},
+    {"id":"AGV-05","start":[2,4],"goal":[9,4]},
+    {"id":"AGV-06","start":[9,4],"goal":[2,4]}
+  ]
+}

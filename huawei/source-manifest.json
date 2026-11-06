@@ -1,0 +1,73 @@
+{
+  "description": "Recovered source files and final checkpoint. Hashes describe the input before documented maintenance fixes. Intermediate checkpoints, local environments, editor settings and empty files are excluded.",
+  "files": [
+    {
+      "path": "legacy/requirements.txt",
+      "source_sha256": "f9f0a2806449df862d21a42f086fabbe111d7255ade5f7a6affd1ef3719ea1d6"
+    },
+    {
+      "path": "legacy/scripts/call_edge_server.py",
+      "source_sha256": "cd5bd124fd5ab8611939a8111fe2bbed793ff0876a2a0fa9c7d4246cded68a32"
+    },
+    {
+      "path": "legacy/scripts/vision_to_edge_demo.py",
+      "source_sha256": "4f439192f5e17c4c04e81419d9c7197b790270b10efd7e46cb881a0508d83c2b"
+    },
+    {
+      "path": "legacy/scripts/run_sim_scenarios.py",
+      "source_sha256": "241e1bd669a820f6296cbc313cd9515f89fbd879dac259f014acb9883eb56005"
+    },
+    {
+      "path": "legacy/src/simulator/renderer.py",
+      "source_sha256": "7b0441f310fb33dd4f520f638180f5e311dfdb2cbb3ea28863e3185c0cde37e5"
+    },
+    {
+      "path": "legacy/src/simulator/environment.py",
+      "source_sha256": "2a9661dd50397156ac4b7404919146f40c30bce3595c3ca08c4db59ed4501167"
+    },
+    {
+      "path": "legacy/src/simulator/entities.py",
+      "source_sha256": "bd1298f39553b3a237f73997cb752b839df6167f4c2da47bd4e069830dd15f5a"
+    },
+    {
+      "path": "legacy/src/simulator/scenario_loader.py",
+      "source_sha256": "ab75445606ad59274e9ae98a49bd34ac51e71d295bc0c5bc68685f662983f06f"
+    },
+    {
+      "path": "legacy/src/module2_rl/evaluate.py",
+      "source_sha256": "02730729ba315a3fe909da4b064583884c699e27c68eaa0b33a4303f782381c7"
+    },
+    {
+      "path": "legacy/src/module2_rl/train.py",
+      "source_sha256": "1b2c8de164226355bd5645337910da0344c22c63e2a8f4a1280fe73d4566a98f"
+    },
+    {
+      "path": "legacy/src/module2_rl/__init__.py",
+      "source_sha256": "4c53fbe8685221e986eca7d3950762206aeda400149d6371eabe2ae296009b6b"
+    },
+    {
+      "path": "legacy/src/module2_rl/rl_agent.py",
+      "source_sha256": "d2028d7360cfb1932595a99933f6b0e118f5f649344a5485cb33707ca4806f64"
+    },
+    {
+      "path": "legacy/src/module1_vision/__init__.py",
+      "source_sha256": "59e0b7e1c9ee58fbd2f1a4c7c4ea8f21c2c1e98bc7223d8f600dcec962ebfe0a"
+    },
+    {
+      "path": "legacy/src/module1_vision/dummy_detector.py",
+      "source_sha256": "1eb45ee76079741247550df71e269b9c4d99be10f2e354db7715b8d05fcb34ab"
+    },
+    {
+      "path": "legacy/src/integration/edge_server.py",
+      "source_sha256": "ab3ccfb00e9f81556bc2b63ec500305e8a6f5bb99a1789f38104980dc070693b"
+    },
+    {
+      "path": "legacy/data/scenarios/example_scenario1.yaml",
+      "source_sha256": "9df6ef14efdf05db4a769414f77fb5bd82d2f47cc691fb6451efe7e0cf36aae4"
+    },
+    {
+      "path": "checkpoints/dqn_final.pt",
+      "source_sha256": "32691a3bd95156630adab418e24418287c6df051b26e8b7c8565ee1cd49e5a5d"
+    }
+  ]
+}

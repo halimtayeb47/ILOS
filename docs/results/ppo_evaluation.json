@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "steps": 14,
+  "arrived": 3,
+  "reward": 38.4,
+  "conflict_proposals": 0,
+  "blocked_moves": 0,
+  "scope": "One deterministic rollout on the fixed training scenario; not a generalization benchmark"
+}
